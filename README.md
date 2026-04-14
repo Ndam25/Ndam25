@@ -1,121 +1,161 @@
-<div align="center">
+# Dr. Adama Ndir, MD | Biostatistician · Clinical Epidemiologist · AI Engineer
 
-# Dr. Adama Ndir, MD | Biostatistician & Clinical Epidemiologist
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/adama-ndir)
-[![Email](https://img.shields.io/badge/Email-adamandir001@gmail.com-D14836?style=flat&logo=gmail)](mailto:adamandir001@gmail.com)
-[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white)](https://python.org)
-[![R](https://img.shields.io/badge/R-4.3+-276DC3?style=flat&logo=r&logoColor=white)](https://r-project.org)
-
-**MD · 20+ Years CDC Epidemiology · Clinical Trial Biostatistics · GI/IBD · RWE**
-
-</div>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/adama-ndir)
+[![Email](https://img.shields.io/badge/Email-adamandir001%40gmail.com-red?logo=gmail)](mailto:adamandir001@gmail.com)
+[![Python](https://img.shields.io/badge/Python-Expert-blue?logo=python)](https://github.com/Ndam25)
+[![R](https://img.shields.io/badge/R-Advanced-276DC3?logo=r)](https://github.com/Ndam25)
+[![SQL](https://img.shields.io/badge/SQL-Advanced-orange?logo=postgresql)](https://github.com/Ndam25)
 
 ---
 
-## About Me
+## 👨‍⚕️ About Me
 
-I am a physician-epidemiologist with over 20 years of experience at the **US Centers for Disease Control and Prevention (CDC)**, now applying deep biostatistical expertise to pharmaceutical clinical development and Real World Evidence generation.
+Physician-epidemiologist with 20+ years at the CDC specializing in **disease surveillance**, **clinical trial biostatistics**, and **AI/ML for healthcare**. I build production-ready statistical pipelines and machine learning systems for GI drug development, pharmacovigilance, and real-world evidence generation.
 
-My work bridges the gap between clinical medicine and rigorous statistical science — translating complex quantitative findings into actionable insights for non-statistical stakeholders, regulators, and clinical teams. I specialize in **gastrointestinal disease epidemiology**, **clinical trial design**, **survival analysis**, and **causal inference** methods.
+> *"Bridging regulatory biostatistics, clinical epidemiology, and applied machine learning."*
 
 ---
 
-## Core Competencies
+## 🧬 Core Competencies
 
 | Domain | Skills |
-|--------|--------|
-| **Clinical Trial Design** | RCT, adaptive designs, seamless Phase 2/3, sample size & power |
-| **GI/IBD Endpoints** | Mayo Score (UC), CDAI/HBI (Crohn's), mucosal healing, PROs |
-| **Biostatistical Methods** | MMRM, survival analysis, logistic regression, longitudinal models |
-| **Causal Inference / RWE** | Propensity score matching, IPW, instrumental variables |
-| **Adaptive & Bayesian Designs** | Group sequential, BOIN, predictive probability, spending functions |
-| **Regulatory Expertise** | ICH E9/E9(R1), FDA guidance, SAP preparation, audit-ready analysis |
-| **Programming** | Python (pandas, statsmodels, lifelines, scipy), R (survival, nlme, MatchIt) |
-| **Communication** | Statistical consulting, client-facing presentations, white papers |
+|---|---|
+| **Clinical Trial Biostatistics** | MMRM, CMH, survival analysis, ICH E9(R1) estimands, SAP development |
+| **Adaptive Designs** | Group sequential, O'Brien-Fleming, conditional power, sample size re-estimation |
+| **GI/IBD Endpoints** | Mayo Score, CDAI, MH, endoscopic remission, fecal calprotectin |
+| **Machine Learning** | Random Forest, XGBoost, BERT, ResNet50, LSTM, Isolation Forest |
+| **Epidemiology** | ARIMA, outbreak detection, CUSUM, Farrington, Bayesian surveillance |
+| **Languages & Tools** | Python, R, SQL, SAS, Streamlit, TensorFlow, AWS |
 
 ---
 
-## Portfolio Projects
+## 📁 Portfolio — GI Clinical Research
 
-### 🏥 [GI Clinical Trial Biostatistics](https://github.com/Ndam25/gi-clinical-trial-biostatistics)
-> **Flagship project** — End-to-end biostatistical analysis pipeline for an IBD Phase 3 RCT
+### 🔬 [gi-clinical-trial-biostatistics](https://github.com/Ndam25/gi-clinical-trial-biostatistics)
+> RESOLVE-UC Phase 3 trial · MMRM · ICH E9(R1) · Mayo Score endpoints
 
-Simulates a 500-patient placebo-controlled trial of a biologic agent in **Moderate-to-Severe Ulcerative Colitis**, demonstrating:
-- Mayo Score primary endpoint analysis (clinical remission at Week 52)
-- Mucosal healing and endoscopic improvement as key secondary endpoints
-- MMRM for continuous disease activity scores (CDAI/MCS)
-- Kaplan-Meier & Cox PH for time-to-response and time-to-relapse
-- Sample size & power calculator with interactive visualizations
-- Regulatory-aligned outputs (CONSORT flow, TLF shells)
+Full biostatistical analysis pipeline for a 500-patient UC trial — risk difference, OR, NNT, Kaplan-Meier, RMST, subgroup forest plot, and 7 publication-ready figures.
 
-`Python` · `statsmodels` · `lifelines` · `matplotlib` · `scipy`
+**Stack:** Python · statsmodels · lifelines · matplotlib
 
 ---
 
-### 🔬 [Adaptive Clinical Trial Designs](https://github.com/Ndam25/adaptive-trial-designs)
-> Innovative designs for GI drug development — reducing cost, time, and patient burden
+### 📐 [adaptive-trial-designs](https://github.com/Ndam25/adaptive-trial-designs)
+> Group sequential · O'Brien-Fleming · Conditional power · 46% sample size savings
 
-Implements and demonstrates:
-- **Group Sequential Design** with O'Brien-Fleming and Pocock spending functions
-- **Futility & Efficacy Interim Analysis** with conditional power
-- **Bayesian Adaptive Randomization** with predictive probability of success
-- **Seamless Phase 2/3** design for dose selection + confirmatory analysis
+Implements OBF, Pocock, and Haybittle-Peto spending functions with Monte Carlo simulation demonstrating 46% sample size reduction through early stopping.
 
-`Python` · `scipy` · `numpy` · `plotly`
+**Stack:** Python · NumPy · SciPy
 
 ---
 
-### 📋 [Statistical Analysis Plan — IBD Template](https://github.com/Ndam25/statistical-analysis-plan-ibd)
-> Regulatory-grade SAP template aligned with ICH E9(R1) and FDA guidance for GI trials
+### 📋 [statistical-analysis-plan-ibd](https://github.com/Ndam25/statistical-analysis-plan-ibd)
+> Regulatory SAP template · UC / Crohn's / EoE / Pouchitis · NDA/BLA ready
 
-A production-ready SAP framework for IBD Phase 2/3 trials including:
-- Population definitions (ITT, mITT, PP, Safety)
-- Endpoint hierarchy (primary, key secondary, exploratory)
-- Analysis methods for responder, continuous, and time-to-event endpoints
-- Multiplicity adjustment (Bonferroni, Holm, fixed-sequence testing)
-- Handling of missing data (MMRM, multiple imputation, tipping-point analysis)
-- Table, Listing & Figure (TLF) shells
+Production-grade SAP template aligned with ICH E9(R1), FDA UC guidance, and EMA GI reflection papers. Covers MMRM, NRI, MICE, tipping-point sensitivity analyses.
 
-`Markdown` · `LaTeX` · `Python` (analysis mock-ups)
+**Stack:** Markdown · Python
 
 ---
 
-### 🦠 [Outbreak Detection Early Warning System](https://github.com/Ndam25/outbreak-detection-system)
-> Time-series anomaly detection for public health surveillance — CDC-grade methodology
+### 🦠 [outbreak-detection-system](https://github.com/Ndam25/outbreak-detection-system)
+> CUSUM · Farrington · Bayesian · Ensemble — GI disease surveillance
 
-10 years of weekly ILI surveillance data across 5 US regions; Z-score, CUSUM, and ARIMA-based outbreak flags with 100% precision on historical outbreaks.
+Multi-method early warning system (WHO/ECDC-standard Farrington algorithm + CUSUM + Bayesian Poisson-Gamma) with 2-of-3 consensus ensemble.
 
-`Python` · `pandas` · `statsmodels` · `scikit-learn`
-
----
-
-### 📊 [Real World Evidence — Comparative Effectiveness](https://github.com/Ndam25/rwe-comparative-effectiveness)
-> Causal inference pipeline for treatment comparison in GI disease cohorts
-
-Propensity score matching, IPW, Kaplan-Meier comparison, Cox PH, and sensitivity analyses (E-value, tipping-point) in a simulated 10,000-patient GI registry.
-
-`Python` · `sklearn` · `lifelines` · `scipy`
+**Stack:** Python · SciPy · matplotlib
 
 ---
 
-## Publications & Thought Leadership
+## 💻 Portfolio — Technical Projects
 
-- **[CDC Morbidity and Mortality Weekly Report (MMWR)]** — Multiple surveillance and outbreak response reports (2004–2023)
-- **Statistical Methods in GI Clinical Trials** — White paper (available in portfolio)
-- **Adaptive Trial Designs for IBD Drug Development** — Technical brief (see adaptive-trial-designs repo)
+### 🍎 [nutrisnap-ai-platform](https://github.com/Ndam25/nutrisnap-ai-platform)
+> Computer vision · ResNet50 · TensorFlow · AWS · **14,500 users · 82% retention**
 
----
+Food recognition app with transfer learning (ResNet50 fine-tuned on Food-101, 87.3% Top-1 accuracy). Deployed on AWS Lambda with CI/CD pipeline via GitHub Actions.
 
-## Let's Connect
-
-I am seeking consulting statistician roles in pharmaceutical clinical development, with particular interest in **GI/IBD** and **Inflammation** therapeutic areas.
-
-📧 **adamandir001@gmail.com**
-🔗 **[linkedin.com/in/adama-ndir](https://linkedin.com/in/adama-ndir)**
+**Stack:** TensorFlow · ResNet50 · AWS Lambda · API Gateway
 
 ---
 
-<div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=Ndam25&show_icons=true&theme=default&hide_border=true" alt="GitHub Stats" />
-</div>
+### 📈 [covid19-forecasting-system](https://github.com/Ndam25/covid19-forecasting-system)
+> ARIMA + Prophet + LSTM · **85% 7-day accuracy** · 6-country Streamlit dashboard
+
+Ensemble time series forecasting system combining classical, Bayesian, and deep learning models. Real-time dashboard for 6-country regional surveillance.
+
+**Stack:** statsmodels · Prophet · TensorFlow · Streamlit
+
+---
+
+### 🔍 [outbreak-anomaly-detection](https://github.com/Ndam25/outbreak-anomaly-detection)
+> Isolation Forest + Autoencoder · **5-7 days early** · **36M+ observations**
+
+Unsupervised anomaly detection system identifying outbreak clusters from 8 epidemiological signals (wastewater, ER visits, search trends, lab positivity).
+
+**Stack:** scikit-learn · TensorFlow · NumPy
+
+---
+
+### 💊 [pharmacovigilance-nlp](https://github.com/Ndam25/pharmacovigilance-nlp)
+> BioBERT · Adverse event extraction · **F1 = 0.89** · **10,000+ notes/day**
+
+Fine-tuned BioBERT pipeline extracting and classifying adverse events from clinical notes across 8 organ system categories with CTCAE severity grading.
+
+**Stack:** Transformers · BioBERT · scikit-learn · spaCy
+
+---
+
+### 🏥 [patient-risk-stratification](https://github.com/Ndam25/patient-risk-stratification)
+> Random Forest + XGBoost + SHAP · Treatment adherence · **AUC = 0.85**
+
+Predicts treatment non-adherence in IBD patients from 18 clinical, behavioral, and socioeconomic features. SHAP values identify top modifiable risk factors.
+
+**Stack:** scikit-learn · XGBoost · SHAP
+
+---
+
+### 🗄️ [covid19-analytics-dashboard](https://github.com/Ndam25/covid19-analytics-dashboard)
+> SQL · PostgreSQL · **100K+ records** · 5 tables · 7-day moving averages
+
+Normalized database schema with 7 analytical queries (window functions, CTEs, vaccine effectiveness, Rt proxy, ICU surge alerts).
+
+**Stack:** PostgreSQL · Python · Excel Power Query
+
+---
+
+### 🏥 [hospital-readmission-risk](https://github.com/Ndam25/hospital-readmission-risk)
+> Advanced SQL · CTEs · Window functions · **70% query optimization**
+
+Cohort analysis for 30-day readmission prediction with composite risk scoring, patient longitudinal tracking, and hospital performance benchmarking.
+
+**Stack:** PostgreSQL · Advanced SQL
+
+---
+
+### 🤖 [epidemiological-prediction-model](https://github.com/Ndam25/epidemiological-prediction-model)
+> Random Forest + XGBoost + SHAP · **AUC = 0.88** · 15 epidemiological features
+
+Outbreak risk prediction from population-level features with full SHAP interpretability for public health decision support.
+
+**Stack:** scikit-learn · XGBoost · SHAP
+
+---
+
+### 🚨 [outbreak-early-warning-system](https://github.com/Ndam25/outbreak-early-warning-system)
+> ARIMA · Streamlit dashboard · **80%+ recall** · Rolling forecast detection
+
+Interactive surveillance dashboard with ARIMA prediction interval alarms, real-time KPIs, confusion matrix, and configurable detection parameters.
+
+**Stack:** statsmodels · Streamlit · matplotlib
+
+---
+
+## 📊 GitHub Stats
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ndam25&layout=compact&theme=default)
+
+---
+
+## 📬 Contact
+
+📧 [adamandir001@gmail.com](mailto:adamandir001@gmail.com) · 🐙 [github.com/Ndam25](https://github.com/Ndam25)
