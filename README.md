@@ -189,8 +189,12 @@ Rolling ARIMA forecast with prediction interval alarms. Interactive dashboard wi
 
 ## 📊 GitHub Stats
 
-![Adama's GitHub stats](https://github-readme-stats.vercel.app/api?username=Ndam25&show_icons=true&theme=default)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ndam25&layout=compact&theme=default)
+![Profile Views](https://komarev.com/ghpvc/?username=Ndam25&color=blue&style=flat&label=Profile+Views)
+![Repos](https://img.shields.io/badge/Public%20Repos-13-blue)
+![Languages](https://img.shields.io/badge/Languages-Python%20%7C%20R%20%7C%20SQL%20%7C%20SAS-blue)
+![Experience](https://img.shields.io/badge/Experience-20%2B%20Years-green)
+![Publications](https://img.shields.io/badge/Publications-25%2B-orange)
+![Countries](https://img.shields.io/badge/Countries-15%2B-red)
 
 ---
 
